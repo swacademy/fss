@@ -1,0 +1,5 @@
+AWS Lab Account
+
+URL : https://mac-resource-del.signin.aws.amazon.com/console
+Account : hana-xx
+Password : Mzc2023!
