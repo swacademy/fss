@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt-get -y update
+sudo apt-get -y install python3-pip
+sudo pip3 install virtualenv
+sudo pip3 install --upgrade pip
+cd /home/ubuntu
+virtualenv --python=python3 notebook
+source notebook/bin/activate
+pip3 install jupyterlab
+nohup jupyter lab --allow-root --ip=0.0.0.0 --ServerApp.password='argon2:$argon2id$v=19$m=10240,t=10,p=8$aSt9+H6fIUSukh/7EWpzVw$Y4Y5soe142/521SZ0/FiVxVHpTy13UMlXKf8SEi1xK8' --ServerApp.token='' &
