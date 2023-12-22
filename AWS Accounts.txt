@@ -1,5 +1,0 @@
-AWS Lab Account
-
-URL : https://mac-resource-del.signin.aws.amazon.com/console
-Account : HANA-01 ~ HANA-48
-Password : qwer!234
